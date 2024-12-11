@@ -81,12 +81,12 @@ variable "database_route_table_tags" {
     default = {}
   
 }
-variable "is_peering_required" {
-    type =  bool
-    default = false
+# variable "is_peering_required" {
+#     type =  bool
+#     default = false
   
-}
-variable "aws_vpc_peering_tags" {
-    default = {}
+# }
+# variable "aws_vpc_peering_tags" {
+#     default = {}
   
-}
+# }
