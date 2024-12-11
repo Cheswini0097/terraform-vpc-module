@@ -90,11 +90,3 @@ variable "database_route_table_tags" {
 #     default = {}
   
 # }
-variable "sg_name" {
-    default = "mysql"
-  
-}
-variable "sg_tags" {
-default = {}
-  
-}
